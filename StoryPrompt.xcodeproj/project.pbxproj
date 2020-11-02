@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		74AE9EAF254FA4FA00748B74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9EAE254FA4FA00748B74 /* AppDelegate.swift */; };
 		74AE9EB1254FA4FA00748B74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9EB0254FA4FA00748B74 /* SceneDelegate.swift */; };
-		74AE9EB3254FA4FA00748B74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9EB2254FA4FA00748B74 /* ViewController.swift */; };
+		74AE9EB3254FA4FA00748B74 /* AddStoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9EB2254FA4FA00748B74 /* AddStoryPromptViewController.swift */; };
 		74AE9EB6254FA4FA00748B74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE9EB4254FA4FA00748B74 /* Main.storyboard */; };
 		74AE9EB8254FA4FC00748B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AE9EB7254FA4FC00748B74 /* Assets.xcassets */; };
 		74AE9EBB254FA4FC00748B74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AE9EB9254FA4FC00748B74 /* LaunchScreen.storyboard */; };
+		74AE9EC6254FA5D700748B74 /* StoryPromptEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9EC4254FA5D700748B74 /* StoryPromptEntry.swift */; };
+		74AE9EC7254FA5D700748B74 /* StoryPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9EC5254FA5D700748B74 /* StoryPrompts.swift */; };
+		74AE9ECB254FB65500748B74 /* StoryPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9ECA254FB65500748B74 /* StoryPromptViewController.swift */; };
+		74AE9ED1254FBE9000748B74 /* StoryPromptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AE9ED0254FBE9000748B74 /* StoryPromptTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74AE9EAB254FA4FA00748B74 /* StoryPrompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryPrompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AE9EAE254FA4FA00748B74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74AE9EB0254FA4FA00748B74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74AE9EB2254FA4FA00748B74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74AE9EB2254FA4FA00748B74 /* AddStoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStoryPromptViewController.swift; sourceTree = "<group>"; };
 		74AE9EB5254FA4FA00748B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74AE9EB7254FA4FC00748B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AE9EBA254FA4FC00748B74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74AE9EBC254FA4FC00748B74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AE9EC4254FA5D700748B74 /* StoryPromptEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPromptEntry.swift; sourceTree = "<group>"; };
+		74AE9EC5254FA5D700748B74 /* StoryPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryPrompts.swift; sourceTree = "<group>"; };
+		74AE9ECA254FB65500748B74 /* StoryPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptViewController.swift; sourceTree = "<group>"; };
+		74AE9ED0254FBE9000748B74 /* StoryPromptTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPromptTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		74AE9EAD254FA4FA00748B74 /* StoryPrompt */ = {
 			isa = PBXGroup;
 			children = (
+				74AE9ECD254FB66100748B74 /* View Controllers */,
+				74AE9EC3254FA59800748B74 /* Model */,
 				74AE9EAE254FA4FA00748B74 /* AppDelegate.swift */,
 				74AE9EB0254FA4FA00748B74 /* SceneDelegate.swift */,
-				74AE9EB2254FA4FA00748B74 /* ViewController.swift */,
 				74AE9EB4254FA4FA00748B74 /* Main.storyboard */,
 				74AE9EB7254FA4FC00748B74 /* Assets.xcassets */,
 				74AE9EB9254FA4FC00748B74 /* LaunchScreen.storyboard */,
 				74AE9EBC254FA4FC00748B74 /* Info.plist */,
 			);
 			path = StoryPrompt;
+			sourceTree = "<group>";
+		};
+		74AE9EC3254FA59800748B74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74AE9EC4254FA5D700748B74 /* StoryPromptEntry.swift */,
+				74AE9EC5254FA5D700748B74 /* StoryPrompts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74AE9ECD254FB66100748B74 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				74AE9EB2254FA4FA00748B74 /* AddStoryPromptViewController.swift */,
+				74AE9ECA254FB65500748B74 /* StoryPromptViewController.swift */,
+				74AE9ED0254FBE9000748B74 /* StoryPromptTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AE9EB3254FA4FA00748B74 /* ViewController.swift in Sources */,
+				74AE9ED1254FBE9000748B74 /* StoryPromptTableViewController.swift in Sources */,
+				74AE9ECB254FB65500748B74 /* StoryPromptViewController.swift in Sources */,
+				74AE9EC7254FA5D700748B74 /* StoryPrompts.swift in Sources */,
+				74AE9EB3254FA4FA00748B74 /* AddStoryPromptViewController.swift in Sources */,
 				74AE9EAF254FA4FA00748B74 /* AppDelegate.swift in Sources */,
+				74AE9EC6254FA5D700748B74 /* StoryPromptEntry.swift in Sources */,
 				74AE9EB1254FA4FA00748B74 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
